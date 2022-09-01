@@ -1,0 +1,90 @@
+body {
+  background-color: hsl(216, 12%, 8%);}
+
+.containerRating {
+    background-color:  hsl(213, 20%, 18%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+  }
+
+.starIcon {
+      width: 45px;
+      height: 45px;
+      border: none;
+      border-radius: 50%;
+      background-color: hsl(217, 12%, 63%);
+      overflow: hidden;
+      img {
+        margin: 20px 20px;
+        position: relative;
+        left: -6px;
+        top: -5px;
+      }
+}
+
+.titleAndDescription {
+      margin: auto;
+      font-size: 15px;
+      font-family: 'Overpass', sans-serif;
+      font-weight: 400;
+      .textDescription {
+        color: hsl(217, 12%, 63%);
+      }
+    }
+
+input[type="radio"] {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:hsl(216, 12%, 54%);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+// input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
+//   outline: none; /*to remove the square border on focus*/
+// }
+input[type="radio"]:checked {
+  background-color: hsl(217, 12%, 63%);
+}
+
+input[type="radio"]:checked ~ span {
+  color: white;
+}
+
+label input[type="radio"]:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+input[type="radio"]:hover ~ span {
+  color: white;
+}
+
+label span {
+  position: relative;
+  top: -14px;
+  left: -2pc;
+  color:hsl(217, 12%, 63%);
+  width: 100%;
+  height: 100%;
+}
+form button {
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+  color:white;
+  border: none;
+  width: -webkit-fill-available;
+  margin-top: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+form button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}

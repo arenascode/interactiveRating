@@ -1,0 +1,77 @@
+body {
+  background-color: #121417; }
+
+.containerRating {
+  background-color: #252d37;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px; }
+
+.starIcon {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #959eac;
+  overflow: hidden; }
+  .starIcon img {
+    margin: 20px 20px;
+    position: relative;
+    left: -6px;
+    top: -5px; }
+
+.titleAndDescription {
+  margin: auto;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400; }
+  .titleAndDescription .textDescription {
+    color: #959eac; }
+
+input[type="radio"] {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #7c8798;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+input[type="radio"]:checked {
+  background-color: #959eac; }
+
+input[type="radio"]:checked ~ span {
+  color: white; }
+
+label input[type="radio"]:hover {
+  background-color: #fb7413;
+  color: white; }
+
+input[type="radio"]:hover ~ span {
+  color: white; }
+
+label span {
+  position: relative;
+  top: -14px;
+  left: -2pc;
+  color: #959eac;
+  width: 100%;
+  height: 100%; }
+
+form button {
+  border-radius: 20px;
+  background-color: #fb7413;
+  color: white;
+  border: none;
+  width: -webkit-fill-available;
+  margin-top: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px; }
+
+form button:hover {
+  background-color: white;
+  color: #fb7413; }
