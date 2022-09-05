@@ -1,3 +1,5 @@
+@import "thankYouModal";
+
 body {
   background-color: hsl(216, 12%, 8%);}
 
@@ -87,4 +89,42 @@ form button {
 form button:hover {
   background-color: white;
   color: hsl(25, 97%, 53%);
+}
+
+// MODAL THANk YOU
+
+#selectedOption {
+  background-color:hsla(216, 12%, 54%, 0.395);
+  color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  width: max-content;
+  margin-top: 20px;
+}
+
+.containerModalThankYou {
+  @extend .containerRating;
+  align-items: center;
+  
+.titleAndDescriptionModal {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  align-items: center;
+  h1 {
+    text-align: center;
+  }
+  
+}
+.textModalThankYou {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
 }

@@ -1,7 +1,7 @@
 body {
   background-color: #121417; }
 
-.containerRating {
+.containerRating, .containerModalThankYou {
   background-color: #252d37;
   color: white;
   padding: 20px;
@@ -75,3 +75,31 @@ form button {
 form button:hover {
   background-color: white;
   color: #fb7413; }
+
+#selectedOption {
+  background-color: rgba(124, 135, 152, 0.395);
+  color: #fb7413;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  width: max-content;
+  margin-top: 20px; }
+
+.containerModalThankYou {
+  align-items: center; }
+  .containerModalThankYou .titleAndDescriptionModal {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    align-items: center; }
+    .containerModalThankYou .titleAndDescriptionModal h1 {
+      text-align: center; }
+  .containerModalThankYou .textModalThankYou {
+    color: #959eac;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    text-align: center; }
