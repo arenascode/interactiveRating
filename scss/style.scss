@@ -1,6 +1,8 @@
-@import "thankYouModal";
 
 body {
+  display:flex;
+  justify-content: center;
+  align-content: center;
   background-color: hsl(216, 12%, 8%);}
 
 .containerRating {
@@ -11,6 +13,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
+    width: 400px;
+    margin-top: 150px;
   }
 
 .starIcon {
@@ -20,6 +24,7 @@ body {
       border-radius: 50%;
       background-color: hsl(217, 12%, 63%);
       overflow: hidden;
+      margin-left: 18px;
       img {
         margin: 20px 20px;
         position: relative;
@@ -29,7 +34,7 @@ body {
 }
 
 .titleAndDescription {
-      margin: auto;
+      margin-left: 20px;
       font-size: 15px;
       font-family: 'Overpass', sans-serif;
       font-weight: 400;
@@ -45,6 +50,7 @@ input[type="radio"] {
   background-color:hsl(216, 12%, 54%);
   -webkit-appearance: none;
   -moz-appearance: none;
+  margin-left: 10px;
 }
 // input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
 //   outline: none; /*to remove the square border on focus*/
@@ -65,7 +71,9 @@ label input[type="radio"]:hover {
 input[type="radio"]:hover ~ span {
   color: white;
 }
-
+label {
+  margin-left: 7px;
+}
 label span {
   position: relative;
   top: -14px;
