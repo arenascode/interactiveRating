@@ -128,3 +128,26 @@ form button:hover {
   text-align: center;
 }
 }
+
+// Responsive for desktop 
+
+@media (min-width: 1440px) {
+  body {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.containerRating {
+  width: 400px;
+  margin-top: 150px;
+}
+.starIcon {
+  margin-left: 18px;
+}
+.titleAndDescription {
+  margin-left: 20px;
+}
+label input {
+  margin-left: 18px;
+}
+}

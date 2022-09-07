@@ -104,3 +104,18 @@ form button:hover {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     text-align: center; }
+
+@media (min-width: 1440px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+  .containerRating, .containerModalThankYou {
+    width: 400px;
+    margin-top: 150px; }
+  .starIcon {
+    margin-left: 18px; }
+  .titleAndDescription {
+    margin-left: 20px; }
+  label input {
+    margin-left: 18px; } }
