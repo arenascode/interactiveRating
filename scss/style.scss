@@ -15,6 +15,7 @@ body {
     border-radius: 20px;
     width: 400px;
     margin-top: 150px;
+    margin-top: 30px;
   }
 
 .starIcon {
@@ -52,9 +53,7 @@ input[type="radio"] {
   -moz-appearance: none;
   margin-left: 10px;
 }
-// input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
-//   outline: none; /*to remove the square border on focus*/
-// }
+
 input[type="radio"]:checked {
   background-color: hsl(217, 12%, 63%);
 }
@@ -134,5 +133,28 @@ form button:hover {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
   text-align: center;
+}
+}
+
+// Responsive for desktop 
+
+@media (min-width: 1440px) {
+  body {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.containerRating {
+  width: 400px;
+  margin-top: 150px;
+}
+.starIcon {
+  margin-left: 18px;
+}
+.titleAndDescription {
+  margin-left: 20px;
+}
+label input {
+  margin-left: 18px;
 }
 }
