@@ -1,21 +1,15 @@
 
 const formRanking = document.getElementById("formRanking");
 
-const op1 = parseFloat(document.getElementById("op1").value);
-const op2 = parseFloat(document.getElementById("op2").value);
-const op3 = parseFloat(document.getElementById("op3").value);
-const op4 = parseFloat(document.getElementById("op4").value);
-const op5 = parseFloat(document.getElementById("op5").value);
-
 let selectedValue = 0;
 
 formRanking.onchange = (e) => {
   selectedValue = e.target.value;
-  console.log(selectedValue);
-}
+  document.getElementById("btnSubmit").removeAttribute("disabled")}
 
 formRanking.addEventListener("submit", (e) => {
   e.preventDefault();
+  
   document.querySelector(
     "body"
   ).innerHTML = `<main class="containerModalThankYou">

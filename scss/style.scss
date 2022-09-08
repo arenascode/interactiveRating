@@ -14,7 +14,7 @@ body {
     align-items: flex-start;
     border-radius: 20px;
     width: 330px;
-    margin-top: 150px;
+    margin: 0;
   }
 
 .starIcon {
@@ -138,11 +138,12 @@ form button:hover {
   body {
   display:flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .containerRating {
   width: 400px;
-  margin-top: 150px;
+  margin: 0;
 }
 .starIcon {
   margin-left: 18px;
